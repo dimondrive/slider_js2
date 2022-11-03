@@ -1,0 +1,12 @@
+.slider__dot{
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    background-color: rgb(223, 137, 137);
+    border-radius: 50%;
+    display: inline-block;
+}
+.slider__dot.active,
+.slider__dot:hover{
+    background-color: red;
+}
